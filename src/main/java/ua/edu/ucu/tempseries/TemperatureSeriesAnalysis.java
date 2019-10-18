@@ -37,7 +37,7 @@ public class TemperatureSeriesAnalysis {
 
     public double average() throws IllegalArgumentException() {
         isEmpty();
-        double av = 0.0;
+        double av = 0;
         for (int i = 0; i < len; i++) {
             av += (float) temperatureSeries[i];
         }
